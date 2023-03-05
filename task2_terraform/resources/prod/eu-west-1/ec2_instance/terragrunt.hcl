@@ -9,5 +9,5 @@ terraform {
 }
 inputs = {
   instance_type = "t2.micro"
-  instance_name = "pravar-server-dev"
+  instance_name = "pravar-server-prod"
 }
