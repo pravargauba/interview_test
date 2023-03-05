@@ -5,7 +5,7 @@ include {
 }
 
 terraform {
-  source = "../../../modules/ec2_instance/"
+  source = "../../../../modules/ec2_instance/"
 }
 inputs = {
   instance_type = "t2.micro"
