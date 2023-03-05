@@ -43,7 +43,7 @@
   # using files parameter to use multiple docker-compose.yml files
   - name: deploy Docker Compose stack
     community.docker.docker_compose:
-      project_src: /task1/docker
+      project_src: task1/docker
       files:
       - docker-compose.yml
 
