@@ -1,0 +1,7 @@
+
+- name: main.yaml
+  hosts: all
+  user: root
+
+  roles:
+    - common
